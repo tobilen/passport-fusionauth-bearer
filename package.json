@@ -1,0 +1,70 @@
+{
+  "name": "passport-fusionauth-bearer",
+  "version": "0.1.0",
+  "description": "HTTP Bearer authentication strategy for Passport and FusionAuth",
+  "keywords": [
+    "passport-fusionauth-bearer",
+    "fusionauth",
+    "passport",
+    "auth",
+    "oauth",
+    "bearer",
+    "authn",
+    "authentication",
+    "authz",
+    "authorization",
+    "http",
+    "bearer",
+    "token",
+    "oauth"
+  ],
+  "homepage": "https://github.com/tobilen/passport-fusionauth-bearer",
+  "bugs": {
+    "url": "https://github.com/tobilen/passport-fusionauth-bearer/issues",
+    "email": "tobias@lengsholz.de"
+  },
+  "types": "types.d.ts",
+  "type": "commonjs",
+  "license": "MIT",
+  "author": {
+    "name": "Tobias Lengsholz",
+    "email": "tobias@lengsholz.de"
+  },
+  "files": [
+    "src"
+  ],
+  "main": "src/index.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/tobilen/passport-fusionauth-bearer"
+  },
+  "scripts": {
+    "lint": "eslint ./src ./test --fix",
+    "test": "mocha --reporter spec --require test/bootstrap/node test/*.test.js",
+    "start": "node src"
+  },
+  "dependencies": {
+    "axios": "^0.21.4",
+    "passport-jwt": "^4.0.0",
+    "simple-node-logger": "^21.8.12"
+  },
+  "devDependencies": {
+    "chai": "^4.3.7",
+    "chai-passport-strategy": "^1.0.1",
+    "eslint": "^7.32.0",
+    "eslint-plugin-mocha": "^9.0.0",
+    "mocha": "^10.2.0",
+    "mock-require": "^3.0.3",
+    "nock": "^13.1.3",
+    "prettier": "^2.4.1",
+    "prettier-eslint": "^13.0.0",
+    "rimraf": "^3.0.2"
+  },
+  "optionalDependencies": {
+    "@types/passport": "^1.0.7",
+    "@types/express": "^4.17.17"
+  },
+  "engines": {
+    "node": ">=10.0.0"
+  }
+}
