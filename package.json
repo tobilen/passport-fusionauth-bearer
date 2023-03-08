@@ -1,6 +1,6 @@
 {
   "name": "passport-fusionauth-bearer",
-  "version": "0.1.0",
+  "version": "0.1.1",
   "description": "HTTP Bearer authentication strategy for Passport and FusionAuth",
   "keywords": [
     "passport-fusionauth-bearer",
@@ -31,7 +31,8 @@
     "email": "tobias@lengsholz.de"
   },
   "files": [
-    "src"
+    "src",
+    "types.d.ts"
   ],
   "main": "src/index.js",
   "repository": {
